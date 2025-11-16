@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabeca {
+
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    
+}
+
+
+
+#formulario {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 900px;
+    border: 1px solid  black;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 25px;
+    
+}
+
+
+label {
+
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+input {
+
+    width: 400px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+button {
+
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+    transition: all 0.2s;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+button, input {
+
+    border-radius: 10px;
+}
+
+button:hover, button:focus {
+
+    background-color: white;
+    color: palevioletred;
+}
+
+input:focus, button:focus {
+
+    outline-color: palevioletred;
+    
+}
+
+h2 {
+
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
